@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.calculadora {
+  width: 400px;
+}
+
+.display {
+  margin-bottom: .4em;
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  border: none;
+  border-radius: 8px;
+  background-color: #eee;
+  padding: 8px;
+  font-size: 36px;
+  color: #222;
+}
+
+/* Codigo button */
+
+.btn {
+  width: 100%;
+  height: 40px;
+  font-size: 1em;
+  border: none;
+  background: #eee;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #ddd;
+  transition: all .2s ease;
+}
+
+.btn-eq {
+  background: #668cfe;
+}
+
+.btn-eq:hover {
+  background: #587be1;
+  transition: all .2s ease;
+}
+
+.btn-del {
+  background: #fe7066;
+}
+
+.btn-del:hover {
+  background: #e3574d;
+  transition: all .2s ease;
+}
+
+.btn-clear {
+  background: #feb566;
+}
+
+.btn-clear:hover {
+  background: #e39b4e;
+  transition: all .2s ease;
+}

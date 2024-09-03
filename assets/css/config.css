@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+  --primary-color: #02afd6;
+  --primary-color-darker: #093038;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
