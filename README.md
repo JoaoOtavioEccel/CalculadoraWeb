@@ -44,4 +44,4 @@ O CSS foi utilizado para dar estilo à interface da calculadora, garantindo uma 
 
 1. Clone este repositório em sua máquina local usando o comando:
    ```bash
-   git clone https://github.com/seuusuario/CalculadoraWeb.git
+   git clone https://github.com/JoaoOtavioEccel/CalculadoraWeb.git
